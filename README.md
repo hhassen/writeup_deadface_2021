@@ -5,14 +5,14 @@ This weekend (October 17 2021) I participated in DEADFACE CTF 2021 edition. An e
 I really enjoyed this CTF, especially the accessiblity of challenges for beginners and the smooth graduation of difficulities through different challenges.
 I wish I had more time to try all the different challenges proposed.
 
-![logo_deadface_2021](https://raw.githubusercontent.com/hhassen/writeup_deadface/main/images/logo_deadface_2021.png "logo deadface ctf")
+![logo_deadface_2021](https://raw.githubusercontent.com/hhassen/writeup_deadface_2021/main/images/logo_deadface_2021.png "logo deadface ctf")
 
 ## SQL challenges
-![https://github.com/hhassen/writeup_deadface/blob/main/sql.md](https://github.com/hhassen/writeup_deadface/blob/main/sql.md)
+![https://github.com/hhassen/writeup_deadface_2021/blob/main/sql.md](https://github.com/hhassen/writeup_deadface_2021/blob/main/sql.md)
 
 
 ## Network Traffic Analysis
-![https://github.com/hhassen/writeup_deadface/blob/main/network.md](https://github.com/hhassen/writeup_deadface/blob/main/network.md)
+![https://github.com/hhassen/writeup_deadface_2021/blob/main/network.md](https://github.com/hhassen/writeup_deadface_2021/blob/main/network.md)
 
 ## Programming challenges
 ### The Count
@@ -47,7 +47,7 @@ while True:
     r.send(str(word_count).encode())
 ```
 
-![count program](https://raw.githubusercontent.com/hhassen/writeup_deadface/main/images/count_program.png)
+![count program](https://raw.githubusercontent.com/hhassen/writeup_deadface_2021/main/images/count_program.png)
 
 
 ## Exploitation challenges
@@ -60,7 +60,7 @@ So, I used `ltrace` to find the `strcmp` function.
 ltrace ./demon
 ```
 
-![ltrace](https://raw.githubusercontent.com/hhassen/writeup_deadface/main/images/ltrace.png)
+![ltrace](https://raw.githubusercontent.com/hhassen/writeup_deadface_2021/main/images/ltrace.png)
 
 ### Password insecurities
 **Task:** We are given a hashed password and we need to crack it.
@@ -74,7 +74,7 @@ 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
 ### You shall not pass
 **Task:** We need to crack a password of a user, given her answers to some personal questions.
 
-![Fb Screenshot](https://raw.githubusercontent.com/hhassen/writeup_deadface/main/images/fb_screenshot.png)
+![Fb Screenshot](https://raw.githubusercontent.com/hhassen/writeup_deadface_2021/main/images/fb_screenshot.png)
 
 **Disclaimer:** I wasn't able to crack the password, but I will share my approach anyways.
 

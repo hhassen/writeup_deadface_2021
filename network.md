@@ -20,7 +20,7 @@ capitalization: `flag{Jerry Seinfeld}`.
 
 To solve this call, I filtered http traffic and I looked for different requests made to find the requests related to search engine. I found a request with this name : Charles Geschickter. That's it.
 
-![http traffic wireshark](https://raw.githubusercontent.com/hhassen/writeup_deadface/main/images/monstrum_ex_machina.png)
+![http traffic wireshark](https://raw.githubusercontent.com/hhassen/writeup_deadface_2021/main/images/monstrum_ex_machina.png)
 
 
 ### Release the Crackin'
@@ -30,7 +30,7 @@ First, I had no idea about what to do. So, I unlocked 2 hints. One of them said 
 
 So, I guessed that might be FTP protocol. I searched deeply and I found that Luciafer tried to crack the FTP password by using a lot of passwords until one of them works. I scrolled down until I found the connection established and I looked for the last password sent.
 
-![FTP password wireshark](https://raw.githubusercontent.com/hhassen/writeup_deadface/main/images/tcp_passwd.png)
+![FTP password wireshark](https://raw.githubusercontent.com/hhassen/writeup_deadface_2021/main/images/tcp_passwd.png)
 
 Now as I solved it, I found a faster way. That's to filter for successful FTP response (230) : `ftp.response.code == 230`, then follow the TCP stream (Right click and select **Follow | TCP Stream**) of that communication to find the password entered.
 

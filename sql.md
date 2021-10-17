@@ -62,7 +62,7 @@ Then in order to found foreign keys on the loans table, I checked the structure 
 `fk_loans_loan_type_id`, `fk_loans_employee_id` and `fk_loans_cust_id` are all valid solutions.
 
 
-![foreign keys](https://raw.githubusercontent.com/hhassen/writeup_deadface/main/images/loan_fk.png)
+![foreign keys](https://raw.githubusercontent.com/hhassen/writeup_deadface_2021/main/images/loan_fk.png)
 
 
 ### City Lights
